@@ -1,12 +1,117 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0014)about:internet -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<title>index</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--Fireworks CS6 Dreamweaver CS6 target.  Created Mon Sep 02 10:56:31 GMT-0500 2024-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa Tecnológica - Eficiencia y Eficacia</title>
 </head>
-<body bgcolor="#ffffff" align="center">
-<img name="index" src="index.png" width="1200" height="1000" id="index" alt="" /></body>
+<body bgcolor="green">
+    <table bgcolor="white" width="100%">
+        <td width="40%"><img src="../Imagen1.jpg" width="200px" height="200px"></td>
+        <td><marquee behavior="alternative" direction=""><font color="blue"><h1>ACCESORIES TECH</h1></font></marquee></td>
+    </table>
+   
+    <table width="100%">
+        <tr>
+            <th bgcolor="yellow">Empresa</th>
+            <th bgcolor="yellow">Servicios</th>
+            <th bgcolor="yellow">Productos</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2" width="30%">
+                <table>
+                    <img src="../productos.webp" alt="">
+                </table>
+            </td>
+            <td colspan="2" bgcolor="orange">
+                <form action="#" method="post">
+                    <fieldset>
+                    <table>  
+                            <legend>DATOS PERSONALES</legend>
+                        <tr>
+                            <td>
+                                <label for="nombre">Nombre:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="nombre" name="nombre">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="correo">Correo:</label>
+                            </td>
+                            <td>
+                                <input type="email" id="correo" name="correo">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="contraseña">Contraseña:</label>
+                            </td>
+                            <td>
+                                <input type="password" id="contraseña" name="contraseña">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="comentario">Comentario:</label>
+                            </td>
+                            <td>
+                                <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+                            </td>
+                        </tr>
+                        </table>
+                        </fieldset>
+                        <fieldset>
+                        <table>
+                        
+                            <legend>Elige tu Servicio</legend>
+                        <tr>
+                            <td>
+                                <input type="radio" name="servicio" value="reparacion"> Reparación<br>
+                                <input type="radio" name="servicio" value="mantenimiento"> Mantenimiento<br>
+                                <input type="radio" name="servicio" value="redes"> Redes<br>
+                            </td>
+                        </tr>
+                        </table>
+                        </fieldset>
+                        <fieldset>
+                        <table>
+                            
+                                <legend>Elige tipo de pago:</legend>
+                            
+                        <tr>
+
+                            <td>
+                                <select id="pago" name="pago">
+                                    <option value="contado">Contado</option>
+                                    <option value="tarjeta">Tarjeta</option>
+                                </select>
+                            </td>
+                        </tr>
+                        </table>
+                        </fieldset>
+                        <fieldset>
+                        <table>
+                            <legend>Satisfacción por la atención:</legend>
+                        <tr>
+                            <td>
+                                <input type="radio" name="satisfaccion" value="bueno"> Bueno<br>
+                                <input type="radio" name="satisfaccion" value="regular"> Regular<br>
+                                <input type="radio" name="satisfaccion" value="malo"> Malo<br>
+                            </td>
+                        </tr>
+                        </table>
+                        </fieldset>
+                        <tr>
+                            <td colspan="2" bgcolor="light blue">
+                                <input type="submit" value="Listo">
+                                <input type="reset" value="Borrar">
+                            </td>
+                        </tr>
+                </form>
+            </td>
+        </tr>
+</body>
 </html>
